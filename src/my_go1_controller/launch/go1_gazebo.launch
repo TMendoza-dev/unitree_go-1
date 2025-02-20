@@ -1,0 +1,25 @@
+<!-- go1_gazebo.launch -->
+<launch>
+  <!-- Cargar parámetros del robot -->
+  <param name="robot_description" 
+         command="$(find xacro)/xacro --inorder '$(find go1_description)/urdf/go1_camera.urdf.xacro'" />
+
+  <!-- Iniciar Gazebo -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- Spawn del modelo -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" 
+        args="-param robot_description -urdf -model go1" />
+
+  <!-- Controllers -->
+  <include file="$(find go1_control)/launch/control.launch"/>
+
+  <!-- RViz -->
+  <node name="rviz" pkg="rviz" type="rviz" 
+        args="-d $(find go1_description)/rviz/go1.rviz"/>
+</launch>

@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<robot name="camera360">
+    <!-- Base link de la cámara -->
+    <link name="camera_base_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.03" length="0.05"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.03" length="0.05"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.1"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <!-- Joint para la cámara -->
+    <joint name="camera_joint" type="fixed">
+        <parent link="camera_base_link"/>
+        <child link="camera_link"/>
+        <origin xyz="0 0 0.025" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Link de la cámara -->
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <sphere radius="0.02"/>
+            </geometry>
+            <material name="blue">
+                <color rgba="0 0 0.8 1"/>
+            </material>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.02"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.05"/>
+            <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+        </inertial>
+    </link>
+
+    <!-- Plugin de Gazebo para la cámara 360 -->
+    <gazebo reference="camera_link">
+        <sensor type="multicamera" name="camera360">
+            <update_rate>30.0</update_rate>
+            <camera name="front">
+                <horizontal_fov>1.5708</horizontal_fov>
+                <image>
+                    <width>800</width>
+                    <height>800</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.02</near>
+                    <far>300</far>
+                </clip>
+            </camera>
+            <camera name="left">
+                <pose>0 0 0 0 0 1.5708</pose>
+                <horizontal_fov>1.5708</horizontal_fov>
+                <image>
+                    <width>800</width>
+                    <height>800</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.02</near>
+                    <far>300</far>
+                </clip>
+            </camera>
+            <camera name="back">
+                <pose>0 0 0 0 0 3.14159</pose>
+                <horizontal_fov>1.5708</horizontal_fov>
+                <image>
+                    <width>800</width>
+                    <height>800</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.02</near>
+                    <far>300</far>
+                </clip>
+            </camera>
+            <camera name="right">
+                <pose>0 0 0 0 0 -1.5708</pose>
+                <horizontal_fov>1.5708</horizontal_fov>
+                <image>
+                    <width>800</width>
+                    <height>800</height>
+                    <format>R8G8B8</format>
+                </image>
+                <clip>
+                    <near>0.02</near>
+                    <far>300</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_multicamera.so">
+                <alwaysOn>true</alwaysOn>
+                <updateRate>30.0</updateRate>
+                <cameraName>camera360</cameraName>
+                <imageTopicName>image_raw</imageTopicName>
+                <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+                <frameName>camera_link</frameName>
+                <hackBaseline>0.07</hackBaseline>
+            </plugin>
+        </sensor>
+    </gazebo>
+</robot>

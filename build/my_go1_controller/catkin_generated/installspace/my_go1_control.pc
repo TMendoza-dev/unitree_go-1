@@ -1,0 +1,8 @@
+prefix=/home/unitree/catkin_ws/install
+
+Name: my_go1_control
+Description: Description of my_go1_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/unitree/catkin_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_legged_sdk",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include  -O3 -fPIC -g   -std=gnu++14 -o CMakeFiles/example_joystick.dir/example/example_joystick.cpp.o -c /home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_joystick.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_joystick.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_legged_sdk",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include  -O3 -fPIC -g   -std=gnu++14 -o CMakeFiles/example_walk.dir/example/example_walk.cpp.o -c /home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_walk.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_walk.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_legged_sdk",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include  -O3 -fPIC -g   -std=gnu++14 -o CMakeFiles/example_torque.dir/example/example_torque.cpp.o -c /home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_torque.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_torque.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_legged_sdk",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include  -O3 -fPIC -g   -std=gnu++14 -o CMakeFiles/example_velocity.dir/example/example_velocity.cpp.o -c /home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_velocity.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_velocity.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_legged_sdk",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include  -O3 -fPIC -g   -std=gnu++14 -o CMakeFiles/example_position.dir/example/example_position.cpp.o -c /home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_position.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_legged_sdk/example/example_position.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_legged_control",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_control\\\" -Dunitree_legged_control_EXPORTS -I/home/unitree/catkin_ws/src/unitree_ros/unitree_legged_control/include -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_legged_control/src/joint_controller.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_legged_control/src/joint_controller.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_legged_control",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_control\\\" -Dunitree_legged_control_EXPORTS -I/home/unitree/catkin_ws/src/unitree_ros/unitree_legged_control/include -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_legged_control/src/unitree_joint_control_tool.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_legged_control/src/unitree_joint_control_tool.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros_to_real/unitree_legged_real",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_real\\\" -I/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/include -I/home/unitree/catkin_ws/src/build/devel/include -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -fPIC -std=c++11 -g   -o CMakeFiles/twist_sub.dir/src/exe/twist_sub.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/twist_sub.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/twist_sub.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros_to_real/unitree_legged_real",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_real\\\" -I/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/include -I/home/unitree/catkin_ws/src/build/devel/include -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -fPIC -std=c++11 -g   -o CMakeFiles/ros_udp.dir/src/exe/ros_udp.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/ros_udp.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/ros_udp.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros_to_real/unitree_legged_real",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_real\\\" -I/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/include -I/home/unitree/catkin_ws/src/build/devel/include -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -fPIC -std=c++11 -g   -o CMakeFiles/state_sub.dir/src/exe/state_sub.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/state_sub.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/state_sub.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros_to_real/unitree_legged_real",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_real\\\" -I/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/include -I/home/unitree/catkin_ws/src/build/devel/include -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -fPIC -std=c++11 -g   -o CMakeFiles/ros_example_position.dir/src/exe/example_position.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/example_position.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/example_position.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros_to_real/unitree_legged_real",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_real\\\" -I/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/include -I/home/unitree/catkin_ws/src/build/devel/include -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -fPIC -std=c++11 -g   -o CMakeFiles/control_via_keyboard.dir/src/exe/control_via_keyboard.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/control_via_keyboard.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/control_via_keyboard.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros_to_real/unitree_legged_real",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_legged_real\\\" -I/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/include -I/home/unitree/catkin_ws/src/build/devel/include -I/home/unitree/catkin_ws/src/unitree_legged_sdk/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -fPIC -std=c++11 -g   -o CMakeFiles/ros_example_walk.dir/src/exe/example_walk.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/example_walk.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/src/exe/example_walk.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_controller",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_controller\\\" -I/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/include -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4    -g   -o CMakeFiles/unitree_servo.dir/src/servo.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/servo.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/servo.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_controller",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_controller\\\" -I/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/include -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4    -g   -o CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/external_force.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_controller",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_controller\\\" -I/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/include -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4    -g   -o CMakeFiles/unitree_move_kinetic.dir/src/move_publisher.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/move_publisher.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/move_publisher.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_controller",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_controller\\\" -Dunitree_controller_EXPORTS -I/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/include -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4    -g -fPIC   -o CMakeFiles/unitree_controller.dir/src/body.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/body.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_controller/src/body.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_gazebo",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_gazebo\\\" -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4    -g   -o CMakeFiles/servo.dir/src/exe/servo.cpp.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_gazebo/src/exe/servo.cpp",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_gazebo/src/exe/servo.cpp"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_gazebo",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_TEST_DYN_LINK -DBOOST_THREAD_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_gazebo\\\" -DunitreeDrawForcePlugin_EXPORTS -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/sdformat-9.10 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/eigen3 -isystem /usr/include/simbody -isystem /usr/include/ignition/math6 -isystem /usr/include/ignition/transport8 -isystem /usr/include/ignition/msgs5 -isystem /usr/include/ignition/common3 -isystem /usr/include/ignition/fuel_tools4 -isystem /usr/include/sdformat-9.10/sdf/.. -isystem /usr/include/ignition/cmake2 -isystem /usr/include/uuid    -g -fPIC   -I/usr/include/uuid -std=gnu++17 -o CMakeFiles/unitreeDrawForcePlugin.dir/plugin/draw_force_plugin.cc.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/draw_force_plugin.cc",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/draw_force_plugin.cc"
+},
+{
+  "directory": "/home/unitree/catkin_ws/src/build/unitree_ros/unitree_gazebo",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_TEST_DYN_LINK -DBOOST_THREAD_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"unitree_gazebo\\\" -DunitreeFootContactPlugin_EXPORTS -I/home/unitree/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/sdformat-9.10 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/eigen3 -isystem /usr/include/simbody -isystem /usr/include/ignition/math6 -isystem /usr/include/ignition/transport8 -isystem /usr/include/ignition/msgs5 -isystem /usr/include/ignition/common3 -isystem /usr/include/ignition/fuel_tools4 -isystem /usr/include/sdformat-9.10/sdf/.. -isystem /usr/include/ignition/cmake2 -isystem /usr/include/uuid    -g -fPIC   -I/usr/include/uuid -std=gnu++17 -o CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o -c /home/unitree/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc",
+  "file": "/home/unitree/catkin_ws/src/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc"
+}
+]

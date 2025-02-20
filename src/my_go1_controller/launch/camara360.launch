@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Cargar el mundo vacío de Gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+
+    <!-- Cargar la descripción del robot -->
+    <param name="robot_description" textfile="$(find tu_paquete)/urdf/camera360.urdf" />
+
+    <!-- Spawning del robot -->
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" 
+          args="-param robot_description -urdf -model camera360" />
+
+    <!-- Publicar el estado del robot -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" 
+          type="robot_state_publisher" />
+</launch>
